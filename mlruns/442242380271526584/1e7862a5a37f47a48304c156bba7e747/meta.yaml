@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Asiya/Credit%20Risk%20Probability%20Model%20for%20Alternative%20Data/credit-risk-model/mlruns/442242380271526584/1e7862a5a37f47a48304c156bba7e747/artifacts
+end_time: 1753363249077
+entry_point_name: ''
+experiment_id: '442242380271526584'
+lifecycle_stage: active
+run_id: 1e7862a5a37f47a48304c156bba7e747
+run_name: LogisticRegression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753363138449
+status: 3
+tags: []
+user_id: Asiya

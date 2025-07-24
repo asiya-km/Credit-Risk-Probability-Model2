@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Asiya/Credit%20Risk%20Probability%20Model%20for%20Alternative%20Data/credit-risk-model/mlruns/442242380271526584/09545cc6245a42019d8b40e558322c9f/artifacts
+end_time: 1753364158866
+entry_point_name: ''
+experiment_id: '442242380271526584'
+lifecycle_stage: active
+run_id: 09545cc6245a42019d8b40e558322c9f
+run_name: RandomForest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753364141271
+status: 3
+tags: []
+user_id: Asiya
