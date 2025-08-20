@@ -79,5 +79,15 @@ def main():
         mlflow.sklearn.log_model(best_model, "best_model", registered_model_name="credit-risk-best-model")
         print("Best model registered in MLflow.")
 
+    # Generate SHAP global feature importance plot for best model
+    try:
+        from src.explain import plot_global_shap
+        print("Generating SHAP global feature importance plot...")
+        plot_global_shap(best_model, X_test, out_path="../data/processed/shap_global.png")
+    except ImportError as e:
+        print(f"Could not import SHAP explainability code: {e}")
+    except Exception as ex:
+        print(f"Error during SHAP plot generation: {ex}")
+
 if __name__ == "__main__":
     main() 
